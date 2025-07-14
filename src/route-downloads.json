@@ -1,60 +1,60 @@
 {
-  "Centurion": [
-    {"name": "Rooihuiskraal - C2", "url": "https://www.gautrain.co.za/docs/busroutes/C2.pdf"},
-    {"name": "Wierda Park - C3", "url": "https://www.gautrain.co.za/docs/busroutes/C3.pdf"},
-    {"name": "Techno Park - C1", "url": "https://www.gautrain.co.za/docs/busroutes/C1.pdf"},
-    {"name": "Southdowns - C4", "url": "https://www.gautrain.co.za/docs/busroutes/C4.pdf"},
-    {"name": "Highveld", "url": "https://www.gautrain.co.za/docs/busroutes/Highveld.pdf"},
-    {"name": "Midstream", "url": "https://www.gautrain.co.za/docs/busroutes/Midstream.pdf"},
-    {"name": "Samrand", "url": "https://www.gautrain.co.za/docs/busroutes/Samrand.pdf"}
+  "HATFIELD": [
+    { "name": "Hatfield-Arcadia-H3", "url": "https://s3-eu-west-1.amazonaws.com/busroutes/HATFIELD/hatfield-arcadia-h3.pdf" },
+    { "name": "Hatfield-Brooklyn-H1", "url": "https://s3-eu-west-1.amazonaws.com/busroutes/HATFIELD/hatfield-brooklyn-h1.pdf" },
+    { "name": "Hatfield-Lynnwood-H2", "url": "https://s3-eu-west-1.amazonaws.com/busroutes/HATFIELD/hatfield-lynnwood-h2.pdf" },
+    { "name": "Hatfield-Menlyn-H5", "url": "https://s3-eu-west-1.amazonaws.com/busroutes/HATFIELD/hatfield-menlyn-h5.pdf" },
+    { "name": "Midibus Route Queenswood", "url": "https://s3-eu-west-1.amazonaws.com/busroutes/HATFIELD/midibusroutequeenswood.pdf" }
   ],
-  "Hatfield": [
-    {"name": "Arcadia - H3", "url": "https://www.gautrain.co.za/docs/busroutes/H3.pdf"},
-    {"name": "Brooklyn - H1", "url": "https://www.gautrain.co.za/docs/busroutes/H1.pdf"},
-    {"name": "Lynnwood - H2", "url": "https://www.gautrain.co.za/docs/busroutes/H2.pdf"},
-    {"name": "Menlyn - H5", "url": "https://www.gautrain.co.za/docs/busroutes/H5.pdf"},
-    {"name": "Queenswood", "url": "https://www.gautrain.co.za/docs/busroutes/Queenswood.pdf"}
+  "PRETORIA": [
+    { "name": "Pretoria- CBD", "url": "https://s3-eu-west-1.amazonaws.com/busroutes/PRETORIA/pretoria-cbd.pdf" },
+    { "name": "Pretoria-Zoo-P5", "url": "https://s3-eu-west-1.amazonaws.com/busroutes/PRETORIA/pretoria-zoo-p5.pdf" }
   ],
-  "Marlboro": [
-    {"name": "Kelvin", "url": "https://www.gautrain.co.za/docs/busroutes/Kelvin.pdf"},
-    {"name": "Buccleuch", "url": "https://www.gautrain.co.za/docs/busroutes/Buccleuch.pdf"},
-    {"name": "Lakeside", "url": "https://www.gautrain.co.za/docs/busroutes/Lakeside.pdf"},
-    {"name": "Linbro", "url": "https://www.gautrain.co.za/docs/busroutes/Linbro.pdf"},
-    {"name": "Greenstone", "url": "https://www.gautrain.co.za/docs/busroutes/Greenstone.pdf"},
-    {"name": "Woodlands Office Park", "url": "https://www.gautrain.co.za/docs/busroutes/Woodlands.pdf"}
+  "CENTURION": [
+    { "name": "Centurion - Rooihuiskraal - C2", "url": "https://s3-eu-west-1.amazonaws.com/busroutes/CENTURION/centurion-rooihuiskraal-c2.pdf" },
+    { "name": "Centurion - Wierda Park - C3", "url": "https://s3-eu-west-1.amazonaws.com/busroutes/CENTURION/centurion-wierdapark-c3.pdf" },
+    { "name": "Centurion- Techno Park - C1", "url": "https://s3-eu-west-1.amazonaws.com/busroutes/CENTURION/centurion-technopark-c1.pdf" },
+    { "name": "Centurion-Southdowns-C4", "url": "https://s3-eu-west-1.amazonaws.com/busroutes/CENTURION/centurion-southdowns-c4.pdf" },
+    { "name": "Midibus Route Map Highveld", "url": "https://s3-eu-west-1.amazonaws.com/busroutes/CENTURION/midibusroutemaphighveld.pdf" },
+    { "name": "Midibus Route Map Midstream", "url": "https://s3-eu-west-1.amazonaws.com/busroutes/CENTURION/midibusroutemapmidstream.pdf" },
+    { "name": "Midibus Route Map Samrand", "url": "https://s3-eu-west-1.amazonaws.com/busroutes/CENTURION/midibusroutemapsamrand.pdf" }
   ],
-  "Midrand": [
-    {"name": "Halfway Gardens - HMS1", "url": "https://www.gautrain.co.za/docs/busroutes/HMS1.pdf"},
-    {"name": "Summerset - SMS1", "url": "https://www.gautrain.co.za/docs/busroutes/SMS1.pdf"},
-    {"name": "Mall of Africa - M4-1", "url": "https://www.gautrain.co.za/docs/busroutes/M4-1.pdf"},
-    {"name": "Noordwyk - M2", "url": "https://www.gautrain.co.za/docs/busroutes/M2.pdf"},
-    {"name": "Randjespark - M1", "url": "https://www.gautrain.co.za/docs/busroutes/M1.pdf"},
-    {"name": "Sunninghill - M3", "url": "https://www.gautrain.co.za/docs/busroutes/M3.pdf"}
+  "MIDRAND": [
+    { "name": "Midi-bus Map Halfway Gardens HMS1", "url": "https://s3-eu-west-1.amazonaws.com/busroutes/MIDRAND/midi-busmaphalfwaygardenshms1.pdf" },
+    { "name": "Midi-bus Map Summerset SMS1", "url": "https://s3-eu-west-1.amazonaws.com/busroutes/MIDRAND/midi-busmapsummersetsms1.pdf" },
+    { "name": "Midrand Mall of Africa-M4-1", "url": "https://s3-eu-west-1.amazonaws.com/busroutes/MIDRAND/midrandmallofafrica-m4-1.pdf" },
+    { "name": "Midrand Noordwyk-M2", "url": "https://s3-eu-west-1.amazonaws.com/busroutes/MIDRAND/midrandnoordwyk-m2.pdf" },
+    { "name": "Midrand Randjespark-M1", "url": "https://s3-eu-west-1.amazonaws.com/busroutes/MIDRAND/midrandrandjespark-m1.pdf" },
+    { "name": "Midrand Sunninghillm3-M3", "url": "https://s3-eu-west-1.amazonaws.com/busroutes/MIDRAND/midrandsunninghillm3-m3.pdf" }
   ],
-  "Park Station": [
-    {"name": "CBD - J2", "url": "https://www.gautrain.co.za/docs/busroutes/J2.pdf"},
-    {"name": "Parktown - J1", "url": "https://www.gautrain.co.za/docs/busroutes/J1.pdf"}
+  "MARLBORO": [
+    { "name": "Midibus Route Kelvin", "url": "https://s3-eu-west-1.amazonaws.com/busroutes/MARLBORO/midibusroutekelvin.pdf" },
+    { "name": "Midibus Route Map Buccleuch", "url": "https://s3-eu-west-1.amazonaws.com/busroutes/MARLBORO/midibusroutemapbuccleuch.pdf" },
+    { "name": "Midibus Route Map Lakeside", "url": "https://s3-eu-west-1.amazonaws.com/busroutes/MARLBORO/midibusroutemaplakeside.pdf" },
+    { "name": "Midibus Route Map to Linbro", "url": "https://s3-eu-west-1.amazonaws.com/busroutes/MARLBORO/midibusroutemaptolinbro.pdf" },
+    { "name": "Midibus Route to Greenstone", "url": "https://s3-eu-west-1.amazonaws.com/busroutes/MARLBORO/midibusroutetogreenstone.pdf" },
+    { "name": "Midibus Route Woodlands Office Park", "url": "https://s3-eu-west-1.amazonaws.com/busroutes/MARLBORO/midibusroutewoodlandsofficepark.pdf" }
   ],
-  "Pretoria": [
-    {"name": "CBD", "url": "https://www.gautrain.co.za/docs/busroutes/Pretoria_CBD.pdf"},
-    {"name": "Zoo - P5", "url": "https://www.gautrain.co.za/docs/busroutes/P5.pdf"}
+  "SANDTON": [
+    { "name": "Sandton Fourways-S5", "url": "https://s3-eu-west-1.amazonaws.com/busroutes/SANDTON/sandtonfourways-s5.pdf" },
+    { "name": "Sandton Gallo Manor-S2", "url": "https://s3-eu-west-1.amazonaws.com/busroutes/SANDTON/sandtongallomanor-s2.pdf" },
+    { "name": "Sandton Randburg-S4", "url": "https://s3-eu-west-1.amazonaws.com/busroutes/SANDTON/sandtonrandburg-s4.pdf" },
+    { "name": "Sandton Rivonia-S3", "url": "https://s3-eu-west-1.amazonaws.com/busroutes/SANDTON/sandtonrivonia-s3.pdf" }
   ],
-  "Rhodesfield": [
-    {"name": "Emperors Palace - RF2_1", "url": "https://www.gautrain.co.za/docs/busroutes/RF2_1.pdf"},
-    {"name": "Kempton Park CBD - RF1", "url": "https://www.gautrain.co.za/docs/busroutes/RF1.pdf"},
-    {"name": "Kempton Park Express - RF3", "url": "https://www.gautrain.co.za/docs/busroutes/RF3.pdf"}
+  "ROSEBANK": [
+    { "name": "Midi-bus Map Parkhurst RPS1", "url": "https://s3-eu-west-1.amazonaws.com/busroutes/ROSEBANK/midi-busmapparkhurstrps1.pdf" },
+    { "name": "Rosebank Hyde Park-RB4", "url": "https://s3-eu-west-1.amazonaws.com/busroutes/ROSEBANK/rosebankhydepark-rb4.pdf" },
+    { "name": "Rosebank Illovo-RB3", "url": "https://s3-eu-west-1.amazonaws.com/busroutes/ROSEBANK/rosebankillovo-rb3.pdf" },
+    { "name": "Rosebank Killarney-RB5", "url": "https://s3-eu-west-1.amazonaws.com/busroutes/ROSEBANK/rosebankkillarney-rb5.pdf" },
+    { "name": "Rosebank Melrose Arch-RB2", "url": "https://s3-eu-west-1.amazonaws.com/busroutes/ROSEBANK/rosebankmelrosearch-rb2.pdf" }
   ],
-  "Rosebank": [
-    {"name": "Parkhurst - RPS1", "url": "https://www.gautrain.co.za/docs/busroutes/RPS1.pdf"},
-    {"name": "Hyde Park - RB4", "url": "https://www.gautrain.co.za/docs/busroutes/RB4.pdf"},
-    {"name": "Illovo - RB3", "url": "https://www.gautrain.co.za/docs/busroutes/RB3.pdf"},
-    {"name": "Killarney - RB5", "url": "https://www.gautrain.co.za/docs/busroutes/RB5.pdf"},
-    {"name": "Melrose Arch - RB2", "url": "https://www.gautrain.co.za/docs/busroutes/RB2.pdf"}
+  "PARK": [
+    { "name": "Park Station- CBD-J2", "url": "https://s3-eu-west-1.amazonaws.com/busroutes/PARK/parkstation-cbd-j2.pdf" },
+    { "name": "Park Station-Parktown-J1", "url": "https://s3-eu-west-1.amazonaws.com/busroutes/PARK/parkstation-parktown-j1.pdf" }
   ],
-  "Sandton": [
-    {"name": "Fourways - S5", "url": "https://www.gautrain.co.za/docs/busroutes/S5.pdf"},
-    {"name": "Gallo Manor - S2", "url": "https://www.gautrain.co.za/docs/busroutes/S2.pdf"},
-    {"name": "Randburg - S4", "url": "https://www.gautrain.co.za/docs/busroutes/S4.pdf"},
-    {"name": "Rivonia - S3", "url": "https://www.gautrain.co.za/docs/busroutes/S3.pdf"}
+  "RHODESFIELD": [
+    { "name": "Rhodesfield Emperors Palace-RF2_1", "url": "https://s3-eu-west-1.amazonaws.com/busroutes/RHODESFIELD/rhodesfieldemperorspalace-rf2_1.pdf" },
+    { "name": "Rhodesfield Kempton Park CBD-RF1", "url": "https://s3-eu-west-1.amazonaws.com/busroutes/RHODESFIELD/rhodesfieldkemptonparkcbd-rf1.pdf" },
+    { "name": "Rhodesfield Kempton Park Express-RF3", "url": "https://s3-eu-west-1.amazonaws.com/busroutes/RHODESFIELD/rhodesfieldkemptonparkexpress-rf3.pdf" }
   ]
 }
