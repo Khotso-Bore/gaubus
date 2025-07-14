@@ -86,16 +86,22 @@
 {#if busRoute}
   <div class="flex flex-col items-center gap-2">
 
-    <select bind:value={city} class="w-3/4 mt-6">
+    <select
+      bind:value={city}
+      class="w-3/4 mt-6 px-4 py-2 rounded-lg border-2 border-blue-400 bg-white text-gray-800 shadow focus:outline-none focus:ring-2 focus:ring-blue-300 transition custom-select-arrow"
+    >
       {#each cities as city}
-        <option value={city}>{city}</option>
+      <option value={city}>{city}</option>
       {/each}
     </select>
 
-
-    <select bind:value={area} class="w-3/4" onchange={async() =>{ await fetchRoute()}}>
+    <select 
+      bind:value={area} 
+      class="w-3/4 mt-2 px-4 py-2 rounded-lg border-2 border-blue-400 bg-white text-gray-800 shadow focus:outline-none focus:ring-2 focus:ring-blue-300 transition custom-select-arrow" 
+      onchange={async() =>{ await fetchRoute()}}
+    >
       {#each areas as area}
-        <option value={area}>{area}</option>
+      <option value={area}>{area}</option>
       {/each}
     </select>
 
@@ -126,4 +132,34 @@
 {:else}
   <div>Loading Data...</div>
 {/if}
+
+<div class="mt-8 mb-4 px-6 py-4  rounded-lg shadow  text-center text-lg font-medium">
+  <p class="text-blue-600">GauBus Tracker</p>
+  <p>
+    This application tracks the gaubus (gautrain bus)  and shows the schedule for the selected route. Select a city and area to view the current bus route and schedule information.
+  </p>
+  
+</div>
+
+
+<style>
+      /* Custom style for select arrow with thicker border */
+      .custom-select-arrow {
+      appearance: none;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      background-image:
+        linear-gradient(45deg, transparent 49%, #2563eb 51%),
+        linear-gradient(135deg, #2563eb 51%, transparent 49%);
+      background-position:
+        calc(100% - 1.5em) calc(1em + 2px),
+        calc(100% - 1em) calc(1em + 2px);
+      background-size: 0.5em 0.5em, 0.5em 0.5em;
+      background-repeat: no-repeat;
+      padding-right: 2.5em;
+      /* Add border to the arrow area */
+      position: relative;
+      }
+
+    </style>
 
