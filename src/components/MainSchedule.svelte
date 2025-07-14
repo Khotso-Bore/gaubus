@@ -97,3 +97,33 @@
     </div>
   </div>
 </div>
+
+<style>
+ /* Target the scrollbar of the specific div */
+.overflow-y-scroll::-webkit-scrollbar {
+ width: 10px; /* Make the scrollbar wider */
+
+}
+
+/* Style the scrollbar track (the background) */
+.overflow-y-scroll::-webkit-scrollbar-track {
+ background: #f1f1f1;
+ border-radius: 10px;
+}
+
+ /* Style the scrollbar handle (the "thumb" or "wheel") */
+.overflow-y-scroll::-webkit-scrollbar-thumb {
+background-color: #888; /* Color of the handle */
+border-radius: 10px; /* Rounded corners for the handle */
+
+}
+
+/* Add hover effect for the handle */
+.overflow-y-scroll::-webkit-scrollbar-thumb:hover {
+background-color: #555;
+}
+
+
+
+
+</style>
