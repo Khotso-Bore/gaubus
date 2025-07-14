@@ -5,6 +5,9 @@
   import { getBusRoute } from '../services/BusService';
   import type { BusRoute } from '../types/BusRoute';
 	import BusMapL from '../components/BusMapL.svelte';
+  import busStopIcon2 from '../assets/bus-stop-2.png';
+	import busIcon from '../assets/busIcon4.png';
+	import busStation from '../assets/gautrainlogo.png';
 
   $: city = 'Midrand';
   let area:string = 'Noordwyk';
@@ -134,10 +137,29 @@
 {/if}
 
 <div class="mt-8 mb-4 px-6 py-4  rounded-lg shadow  text-center text-lg font-medium">
-  <p class="text-blue-600">GauBus Tracker</p>
-  <p>
-    This application tracks the gaubus (gautrain bus)  and shows the schedule for the selected route. Select a city and area to view the current bus route and schedule information.
-  </p>
+  <div class="text-blue-600">GauBus Tracker</div>
+  <div>
+    This application tracks the gaubus (gautrain bus)  and shows the schedule for the selected route. Select a city and area to view the current bus route, the busses enroute and schedule information. Bus locations are updated every 15 seconds.
+  </div>
+  <div class="flex flex-col items-center gap-2 mt-4">
+    <div class="font-semibold text-blue-700 mb-2">Map Legend</div>
+    <div class="flex items-center gap-2">
+      <img src={busIcon} alt="Bus Icon" class="w-6 h-6" />
+      <span>Represents the bus on the map.</span>
+    </div>
+    <div class="flex items-center gap-2">
+      <img src={busStopIcon2} alt="Bus Stop Icon" class="w-6 h-6" />
+      <span>Represents bus stops on the map.</span>
+    </div>
+    <div class="flex items-center gap-2">
+      <img src={busStation} alt="Gautrain Station Icon" class="w-6 h-6" />
+      <span>Represents the Gautrain station on the map.</span>
+    </div>
+  </div>
+
+  
+
+
   
 </div>
 
