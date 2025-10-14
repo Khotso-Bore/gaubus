@@ -76,7 +76,7 @@
 </script>
 
 <div>
-  <p class="text-xl">Scheduled Depart Times:</p>
+  <p class="text-xl">Gautrain Bus Schedule:</p>
   <div class="grid grid-cols-2">
     <p>{mainDepartPoint.name}</p>
     <p>{secondaryDepartPoint.name}</p>

@@ -137,9 +137,9 @@
 {/if}
 
 <div class="mt-8 mb-4 px-6 py-4  rounded-lg shadow  text-center text-lg font-medium">
-  <div class="text-blue-600">GauBus Tracker</div>
+  <div class="text-blue-600">Gautrain bus schedule and routes</div>
   <div>
-    This application tracks the gaubus (gautrain bus)  and shows the schedule for the selected route. Select a city and area to view the current bus route, the busses enroute and schedule information. Bus locations are updated every 15 seconds.
+    Tracks the Gautrain bus (Gaubus) and shows the schedule for the selected route. Select a city and area to view the current bus route, bus stops, the busses enroute and timetable information. Bus locations are updated every 15 seconds.
   </div>
   <div class="flex flex-col items-center gap-2 mt-4">
     <div class="font-semibold text-blue-700 mb-2">Map Legend</div>

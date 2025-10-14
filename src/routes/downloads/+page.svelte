@@ -10,6 +10,7 @@
 
 <div class="container mx-auto px-4 py-8">
   <h1 class="text-2xl font-bold mb-6">Download Bus Route PDFs</h1>
+  <h2 class="text-lg font-semibold mb-4">If you need to download the bus route and timetable PDFs, select a location below:</h2>
 
   <div class="mb-6 flex flex-wrap gap-2">
     {#each Object.keys(data) as location}

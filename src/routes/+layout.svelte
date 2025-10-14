@@ -14,7 +14,7 @@
 	<link rel="icon" type="image/png" sizes="48x48" href="/favicon_io/favicon.ico">
 	<link rel="manifest" href="/favicon_io/site.webmanifest">
 	<meta name="og:title" content="Gaubus Schedule" />
-	<meta name="description" content="This application tracks the gaubus (gautrain bus) and shows the schedule for the selected route." />
+	<meta name="description" content="Track the gautrain bus for your area and get the bus schedule for the selected route." />
 </svelte:head>
 <Header />
 {@render children()}
