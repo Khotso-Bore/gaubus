@@ -12,7 +12,7 @@
 	<title>Gautrain Bus Schedule</title>
 
 	<!-- Favicon Icons -->
-	<link rel="icon" sizes="48x48" href="/favicon.ico" >
+	<link rel="icon" type="image/png" sizes="48x48" href="/favicon.ico" >
 	<link rel="icon" type="image/png" sizes="48x48" href="/bus-48.png">
 	<link rel="icon" type="image/png" sizes="72x72" href="/bus-72.png">
 	<link rel="icon" type="image/png" sizes="96x96" href="/bus-96.png">
