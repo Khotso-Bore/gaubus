@@ -9,7 +9,7 @@
 </script>
 
 <svelte:head>
-	<title>Gautrain Bus Schedule</title>
+	<title>Gautrain Bus Routes & Schedule | Live Tracking</title>
 
 	<!-- Favicon Icons -->
 
@@ -42,14 +42,14 @@
 	<meta name="apple-mobile-web-app-title" content="Gautrain Bus" /> -->
 
 	<!-- Social Sharing -->
-	<meta property="og:title" content="Gautrain Bus Schedule" />
+	<meta property="og:title" content="Gautrain Bus Routes & Schedule | Live Tracking" />
 	<meta
 		property="og:description"
-		content="Track the Gautrain bus for your area and get the bus schedule for the selected route."
+		content="Find Gautrain bus routes, schedules, and live tracking information. Plan your journey with the latest Gautrain bus timetables and stop locations."
 	/>
 	<meta
 		name="description"
-		content="Track the Gautrain bus for your area and get the bus schedule for the selected route."
+		content="Find Gautrain bus routes, schedules, and live tracking information. Plan your journey with the latest Gautrain bus timetables and stop locations."
 	/>
 </svelte:head>
 
