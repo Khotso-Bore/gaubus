@@ -35,6 +35,7 @@
 	<!-- <meta name="theme-color" content="#ffffff" />
 	<meta name="apple-mobile-web-app-status-bar-style" content="white-translucent" />
 	<meta name="apple-mobile-web-app-capable" content="yes" /> -->
+	<meta name="google-adsense-account" content="ca-pub-6775987530927779" />
 
 	<!-- PWA specific meta -->
 	<!-- <meta name="mobile-web-app-capable" content="yes" />
