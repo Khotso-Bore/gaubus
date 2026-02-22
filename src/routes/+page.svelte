@@ -136,7 +136,7 @@
 <div class="mt-8 mb-4 rounded-lg px-6 py-4 text-center text-lg font-medium shadow">
 	<h1 class="text-xl font-bold text-blue-600">Gautrain Bus Routes & Schedule | Live Tracking</h1>
 	<div>
-		Tracks the Gautrain bus (Gaubus) and shows the schedule for the selected route. Select a city
+		Tracks the Gautrain bus (Gaubus) and shows the schedule for the selected route. Choose a city
 		and area to view the current bus route, bus stops, the busses enroute and timetable information.
 		Bus locations are updated every 15 seconds.
 	</div>
